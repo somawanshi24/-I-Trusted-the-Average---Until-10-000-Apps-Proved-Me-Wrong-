@@ -7,7 +7,7 @@
 | Field | Detail |
 |---|---|
 | Project Name | Google Play Store Intelligence Dashboard |
-| Prepared By | [Your Name] — Business Analyst |
+| Prepared By | [Neha Somawanshi] Aspiring Business Analyst |
 | Stakeholder / Sponsor | Priya Menon, VP of App Ecosystem Growth, Google Play |
 | Date | [Insert Date] |
 | Status | Draft v1.0 |
