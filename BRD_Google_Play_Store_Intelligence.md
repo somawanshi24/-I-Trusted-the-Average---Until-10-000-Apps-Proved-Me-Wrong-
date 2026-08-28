@@ -6,9 +6,9 @@
 ### Document Control
 | Field | Detail |
 |---|---|
-| Prepared By | [Neha Somawanshi] — Aspiring Business Analyst |
+| Prepared By | [Neha Somawanshi] Aspiring Business Analyst |
 | Stakeholder | Priya Menon, VP of App Ecosystem Growth, Google Play |
-| Related Document | Business Requirements Document (BRD) — Google Play Store Intelligence |
+| Related Document | Business Requirements Document (BRD)- Google Play Store Intelligence |
 | Status | Final v1.0 |
 
 ---
