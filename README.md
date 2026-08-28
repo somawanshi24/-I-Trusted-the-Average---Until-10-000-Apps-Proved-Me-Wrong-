@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard analyzing the Google Play Store app catalog to answer four real business questions raised by a stakeholder-defined scenario — not a general dataset exploration.
 
-![Dashboard Landing Page](Dashboard%20Images/landing_page.png)
+![Dashboard Landing Page](Dashboard_Landing_Page.png)
 
 ---
 
