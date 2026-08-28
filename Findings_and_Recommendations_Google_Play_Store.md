@@ -6,9 +6,9 @@
 ### Document Control
 | Field | Detail |
 |---|---|
-| Prepared By | [Your Name] — Business Analyst |
+| Prepared By | [Neha Somawanshi] AspiringBusiness Analyst |
 | Stakeholder | Priya Menon, VP of App Ecosystem Growth, Google Play |
-| Related Document | Business Requirements Document (BRD) — Google Play Store Intelligence |
+| Related Document | Business Requirements Document (BRD) Google Play Store Intelligence |
 | Status | Final v1.0 |
 
 ---
@@ -58,18 +58,18 @@ Do not recommend one pricing model universally. Free suits developers optimizing
 
 **Method note:** Average was initially used but found to be heavily skewed by a small number of blockbuster apps (e.g., Subway Surfers, Candy Crush, Temple Run) present in every size tier. Median was used instead to get a result robust to these outliers.
 
-**Finding — Size:**
-Even using outlier-resistant Median, Large apps show dramatically higher installs (~1.00M) than Medium (~50K) and Small (~10K). App size does not suppress installs — if anything, the opposite pattern holds, though this may reflect that successful apps grow larger over time (adding features) rather than size directly causing installs.
+**Finding Size:**
+Even using outlier resistant Median, Large apps show dramatically higher installs (~1.00M) than Medium (~50K) and Small (~10K). App size does not suppress installs if anything, the opposite pattern holds, though this may reflect that successful apps grow larger over time (adding features) rather than size directly causing installs.
 
-**Finding — Android Version:**
-Apps requiring outdated Android versions (pre-3.0, "Old") show meaningfully lower median installs (~20K) than apps requiring more modern versions (~50K, both "Mid" and "Newer" tiers) — despite older-version apps not being rare in the catalog. This suggests install performance tracks with how current/actively maintained an app is, rather than with how many apps target a given version.
+**Finding Android Version:**
+Apps requiring outdated Android versions (pre-3.0, "Old") show meaningfully lower median installs (~20K) than apps requiring more modern versions (~50K, both "Mid" and "Newer" tiers) despite older-version apps not being rare in the catalog. This suggests install performance tracks with how current/actively maintained an app is, rather than with how many apps target a given version.
 
 **Recommendation:**
-Regional partner teams' concern that app size or newer-version requirements may suppress installs on lower-end devices is not supported by this dataset. If anything, larger apps and apps targeting modern Android versions show stronger install performance. Recommend not treating size or modern-version requirements as install barriers. Note: this dataset has no geography field, so region-specific effects cannot be confirmed or ruled out.
+Regional partner teams' concern that app size or newer version requirements may suppress installs on lower-end devices is not supported by this dataset. If anything, larger apps and apps targeting modern Android versions show stronger install performance. Recommend not treating size or modern-version requirements as install barriers. Note: this dataset has no geography field, so region specific effects cannot be confirmed or ruled out.
 
 ---
 
-## Q4: Executive Summary — Top Recommendations for Developer Relations
+## Q4: Executive Summary Top Recommendations for Developer Relations
 
 | # | Insight | Recommendation |
 |---|---|---|
@@ -88,6 +88,6 @@ Regional partner teams' concern that app size or newer-version requirements may 
 - Where Average was found to be outlier-sensitive (Q3), Median was used instead and both results are documented for transparency.
 
 ### Limitations
-- No geographic/country-level data — regional claims (e.g., emerging market device constraints) cannot be tested with this dataset.
+- No geographic/country-level dataregional claims (e.g., emerging market device constraints) cannot be tested with this dataset.
 - Install counts are approximate ranges (e.g., "10,000+"), not exact figures.
-- Analysis reflects a single point-in-time snapshot of the Play Store catalog.
+- Analysis reflects a single point in time snapshot of the Play Store catalog.
